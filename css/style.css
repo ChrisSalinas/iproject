@@ -1,0 +1,169 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #333;*/
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-transform: uppercase;
+    font-family: SFProText,Tahoma,Arial,sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+li a:hover {
+    cursor: pointer;
+    /*background-color: #111;*/
+    border-bottom: 3px solid #ff962f;
+}
+
+.nav_left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav_right{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.back{
+    background-image: linear-gradient(rgba(189, 14, 51, 0.73), rgba(232, 169, 166, 0.36)),url("../afb/thumb-1920-678024.png");
+    background-repeat: repeat;
+    background-position: 20%, 50%;
+    /*z-index: -1;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 100%;
+    max-height: 150%;
+    /*background: ;*/
+    /*opacity: .6;*/
+
+}
+
+.down{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+
+}
+
+
+
+h3{
+    color: white;
+    text-transform: uppercase;
+    font-family: SFProText,Tahoma,Arial,sans-serif;
+    font-weight: 500;
+}
+
+#logo{
+    height: 70px;
+}
+
+.front_img{
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    cursor: pointer;
+}
+.texthover{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1
+}
+
+.link:hover .texthover{
+    visibility: visible;
+}
+
+#result{
+    position: absolute;
+    top:160px;
+}
+
+/*videopage*/
+.title{
+    position: absolute;
+    top:420px;
+    left: 250px;
+}
+
+.tekstinfo{
+    background-color: black;
+    color: white;;
+    position: absolute;
+    top: 480px;
+    left: 250px;
+    width: 750px;
+    height: 205px;
+}
+
+.progress{
+    position: absolute;
+    top: 385px;
+    background-color: red;
+    width: 190px;
+    height: 300px;
+}
+
+
+
+.test .video video{
+    position: absolute;
+    height: 400px;
+    left: 250px;
+}
+
+.name_episode{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 115px;
+    left: 1010px;
+    width: 250px;
+}
+
+.name_episode p{
+    padding-left: 5px;
+    cursor: pointer;
+
+}
+.name_episode p a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu{
+    position: absolute;
+    top: 363px;
+    left: 1010px;
+    width: 250px;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
