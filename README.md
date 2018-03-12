@@ -1,0 +1,1 @@
+Dit is het iproject waar je zeg mocht bepalen wat je deed. Met dit project heb ik een video speler gemaakt met mijn eigen besturingssysteem. Dit project is aan het einde van de tweede leerjaar gemaakt
